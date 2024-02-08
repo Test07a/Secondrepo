@@ -1,0 +1,29 @@
+HTTP/1.1 400 Bad Request
+Cache-Control: private
+Content-Type: application/json;odata.metadata=minimal;odata.streaming=true;IEEE754Compatible=false;charset=utf-8
+request-id: 1d6ed4db-a51e-4cb1-a70b-578dbdbdf8d7
+X-CalculatedFETarget: YQBPR0101CU002.internal.outlook.com
+X-BackEndHttpStatus: 400
+X-FEProxyInfo: YQBPR0101CA0041.CANPRD01.PROD.OUTLOOK.COM
+X-CalculatedBETarget: YQBPR0101MB1732.CANPRD01.PROD.OUTLOOK.COM
+X-BackEndHttpStatus: 400
+X-RUM-Validated: 1
+x-ms-appId: 00000002-0000-0ff1-ce00-000000000000
+Access-Control-Allow-Origin: *
+Access-Control-Max-Age: 86400
+Rate-Limit-Limit: 10000
+Rate-Limit-Remaining: 9988
+Rate-Limit-Reset: 2018-09-11T00:25:38.313Z
+OData-Version: 4.0
+X-AspNet-Version: 4.0.30319
+X-BeSku: WCS5
+X-DiagInfo: YQBPR0101MB1732
+X-BEServer: YQBPR0101MB1732
+X-FEServer: YQBPR0101CA0041
+X-Powered-By: ASP.NET
+X-FEServer: MWHPR08CA0053
+X-MSEdge-Ref: Ref A: BB8FFED33B2D4F2BACF01080C1856AE7 Ref B: CO1EDGE0522 Ref C: 2018-09-11T00:23:43Z
+Date: Tue, 11 Sep 2018 00:23:42 GMT
+Content-Length: 106
+
+{"error":{"code":"RequestBroker--ParseUri","message":"Resource not found for the segment 'asdsadUsers'."}}
